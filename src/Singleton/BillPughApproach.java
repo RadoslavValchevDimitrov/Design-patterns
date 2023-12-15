@@ -20,5 +20,6 @@ public class BillPughApproach {
 
     public static BillPughApproach getInstance(){
         return Singleton.singleton;
+
     }
 }
