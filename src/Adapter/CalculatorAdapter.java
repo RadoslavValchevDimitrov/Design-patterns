@@ -14,7 +14,7 @@ public class CalculatorAdapter implements CalculatorInterface {
         Rectangle r = new Rectangle();
 
         r.length = circle.radius * circle.radius;
-        r.width = circle.pY;
+        r.width = Math.PI;
         return calculator.getArea(r);
 
     }
