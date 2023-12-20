@@ -6,7 +6,7 @@ public class Cleint {
         InternetInterface proxy = new ProxyInternet();
 
         try {
-          
+
             proxy.connectTo("www.fashiondays.com");
             proxy.connectTo("www.capital.bg");
         }
